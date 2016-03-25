@@ -1,0 +1,157 @@
+html {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "PT Mono", serif;
+}
+
+body {
+    margin: 0px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+img.circle {
+    height: 200px;
+    width: 200px;
+    border-radius: 110px;
+    border: 8px solid gray;
+}
+
+div.footer-container {
+    width: 100%;
+    background-color: gray;
+    padding: 3rem 0;
+}
+
+.centered {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.logo {
+    padding-top: 2rem;
+    padding-left: 2%;
+    float: left;
+}
+
+.top-section {
+    background: url("../img/computer-code-cinemagraph-cropped.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 805px;
+    color: white;
+}
+
+.top-section h1 {
+    text-align: center;
+    font-size: 8rem;
+    font-weight: 900;
+    /*text-transform: uppercase;*/
+    font-family: "Oswald", "Helvetica Neue", sans-serif;
+    margin-top: 14rem;
+    margin-bottom: 0rem;
+    letter-spacing: 5px;
+}
+
+.top-section h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 1rem;
+    letter-spacing: 5px;
+}
+
+.nav-links li {
+    display: inline-block;
+    font-size: 1.75rem;
+    font-family: "PT Mono", serif;
+    padding-right: 5%;
+
+}
+
+section.portfolio.centered {
+    margin-bottom: 5rem;
+}
+
+section.portfolio.centered h1 {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: "Oswald", "Helvetica Neue", sans-serif;
+}
+
+.cases > li, .footer-sections > li {
+    display: inline-block;
+    width: 33.3%;
+    text-align: center;
+    vertical-align: top;
+}
+
+ul.cases li p, ul.footer-sections li p {
+    padding: 0 20px;
+}
+
+ul.footer-sections li p {
+    text-align: justify;
+    font-size: 0.9rem;
+}
+
+ul.nav-links {
+    padding-left: 15%;
+    padding-top: 3rem;
+}
+
+ul.footer-sections > li ul li {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 641px) {
+    .top-section {
+        background: url("../img/computer-code-cinemagraph-cropped.gif");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 179px;
+    }
+
+    .top-section h1 {
+        text-align: center;
+        font-size: 3rem;
+        font-weight: 900;
+        /*text-transform: uppercase;*/
+        font-family: "PT Mono", serif;
+        margin-top: 2rem;
+        margin-bottom: 0rem;
+    }
+
+    .top-section h2 {
+        text-align: center;
+        font-size: 1rem;
+        font-family: "Oswald", "Helvetica Neue", sans-serif;
+        margin-top: 0;
+    }
+
+    .logo {
+        width: 35px;
+        height: 35px;
+        padding-top: 1rem;
+    }
+
+    ul.nav-links {
+        padding-top: 1.5rem;
+    }
+
+    .nav-links li {
+        font-size: 1rem;
+    }
+
+    section.portfolio.centered h1 {
+        font-size: 2rem;
+    }
+}
+
+
