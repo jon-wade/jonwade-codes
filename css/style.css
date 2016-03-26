@@ -120,7 +120,7 @@ ul.footer-sections > li ul li {
     padding-bottom: 10px;
 }
 
-@media screen and (max-width: 641px) {
+@media screen and (max-width: 768px) {
     .top-section {
         background-size: cover;
         background-repeat: no-repeat;
@@ -137,13 +137,15 @@ ul.footer-sections > li ul li {
         font-family: "Oswald", "Helvetica Neue", sans-serif;
         margin-top: 6rem;
         margin-bottom: 0rem;
+        letter-spacing: 1px;
     }
 
     .top-section h2 {
         text-align: center;
-        font-size: 0.8rem;
+        font-size: 1.5rem;
         font-family: "PT Mono", serif;
         margin-top: 0;
+        padding: 0 10%;
     }
 
     .logo {
@@ -154,6 +156,7 @@ ul.footer-sections > li ul li {
 
     ul.nav-links {
         padding-top: 1.5rem;
+        margin-left: 20px;
     }
 
     .nav-links li {
@@ -172,11 +175,26 @@ ul.footer-sections > li ul li {
         padding: 0 6%;
     }
 
-    .cases > li {
+    .cases > li, .footer-sections > li {
         display: block;
         text-align: center;
         width: 100%
     }
+
+    ul.footer-sections > li ul li {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .top-section h2 {
+        text-align: center;
+        font-size: 1rem;
+        margin-top: 1rem;
+        letter-spacing: 5px;
+        padding: 0;
+    }
+
 }
 
 
