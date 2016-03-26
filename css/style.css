@@ -122,27 +122,27 @@ ul.footer-sections > li ul li {
 
 @media screen and (max-width: 641px) {
     .top-section {
-        background: url("../img/computer-code-cinemagraph-cropped.gif");
         background-size: cover;
         background-repeat: no-repeat;
+        background-position: 50% 50%;
         width: 100%;
-        height: 179px;
+        height: 350px;
+        color: white;
     }
 
     .top-section h1 {
         text-align: center;
         font-size: 3rem;
         font-weight: 900;
-        /*text-transform: uppercase;*/
-        font-family: "PT Mono", serif;
-        margin-top: 2rem;
+        font-family: "Oswald", "Helvetica Neue", sans-serif;
+        margin-top: 6rem;
         margin-bottom: 0rem;
     }
 
     .top-section h2 {
         text-align: center;
-        font-size: 1rem;
-        font-family: "Oswald", "Helvetica Neue", sans-serif;
+        font-size: 0.8rem;
+        font-family: "PT Mono", serif;
         margin-top: 0;
     }
 
@@ -162,6 +162,20 @@ ul.footer-sections > li ul li {
 
     section.portfolio.centered h1 {
         font-size: 2rem;
+    }
+
+    ul.cases li h2, ul.footer-sections li h2 {
+        font-size: 1rem;
+    }
+
+    ul.footer-sections li p {
+        padding: 0 6%;
+    }
+
+    .cases > li {
+        display: block;
+        text-align: center;
+        width: 100%
     }
 }
 
