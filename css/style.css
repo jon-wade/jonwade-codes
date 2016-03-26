@@ -14,6 +14,12 @@ ul {
     padding: 0px;
 }
 
+a {
+    text-decoration: none;
+}
+
+
+
 img.circle {
     height: 200px;
     width: 200px;
@@ -119,6 +125,16 @@ ul.footer-sections > li ul li {
     list-style: none;
     padding-bottom: 10px;
 }
+
+ul.footer-sections > li ul li a{
+    color: white;
+}
+
+ul.footer-sections > li ul li a:hover{
+    color: #083F08;
+}
+
+
 
 @media screen and (max-width: 768px) {
     .top-section {
