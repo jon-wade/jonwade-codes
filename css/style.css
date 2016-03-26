@@ -18,7 +18,22 @@ a {
     text-decoration: none;
 }
 
+a.hover-link {
+    width: 200px;
+    height: 200px;
+    display: block;
+    background: url('../img/about-me-200x200.png') center no-repeat;
+    border-radius: 110px;
+    border: solid 10px #083F08;
+    margin: 0 auto;
+}
 
+a.hover-link:hover {
+    background: url('../img/about-me-200x200-hover.png') center no-repeat;
+    border-radius: 110px;
+    border: solid 10px black;
+    margin: 0 auto;
+}
 
 img.circle {
     height: 200px;
