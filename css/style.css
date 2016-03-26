@@ -22,22 +22,25 @@ img.circle {
     height: 200px;
     width: 200px;
     border-radius: 110px;
-    border: 8px solid #083F08;
+    border: 15px solid #083F08;
     background-color: #083F08;
 }
 
 img.circle:hover {
-    animation: pulse 4s infinite;
+    animation: pulse 0.5s infinite;
 }
 
 @keyframes pulse {
     0%, 100% {
-        -webkit-filter: opacity(1);
-        filter: opacity(1);
+        /*-webkit-filter: opacity(1);*/
+        /*filter: opacity(1);*/
+        border: 15px solid #083F08;
     }
     50% {
-        -webkit-filter: opacity(0.5);
-        filter: opacity(0.5);
+        /*-webkit-filter: opacity(0.5);*/
+        /*filter: opacity(0.5);*/
+        border: 15px solid #128D03;
+        background-color: #128D03;
     }
 }
 
